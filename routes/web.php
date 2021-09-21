@@ -21,6 +21,10 @@ Route::get('inicio', function () {
     return view('inicio');
 })->name('inicio');
 
+Route::get('nueva', function () {
+    return view('nueva');
+})->name('nueva');
+
 Route::get('/', function(){
     return view('plantilla/plantilla');
 })->name('/');
